@@ -1,0 +1,350 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+body{
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-bar-cotainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 15px;
+}
+.nav-bar-cotainer img {
+    padding-left: 20px;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.pages a{
+    padding: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+}
+
+
+/* designing main container */
+.main-container{
+    display: flex;
+    padding: 20px;
+    /* min-height: 50vh; */
+}
+.main-left-contaoner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+.text-container{
+    width: 90%;
+    padding-inline: 10px;
+}
+.text-container h1{
+    font-size: 40px;
+    color: #060435;
+    font-weight: 700;
+}
+.text-container p{
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #40404D;
+}
+.input-container{
+    margin-top: 20px;
+}
+.input-container input{
+    padding: 10px 40px;
+}
+.input-container button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #6B9BFF;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media(max-width:800px)
+{
+    .text-container{
+        text-align: center;
+    }
+    .text-container h1{
+        font-size: 24px;
+    }
+    .text-container p{
+        font-size: 18px;
+    }
+    .input-container{
+        margin-top: 10px;
+    }
+    .input-container input{
+        padding: 10px 10px;
+    }
+    .input-container button{
+        padding: 5px 10px;
+       
+    }
+}
+
+
+/* main-right-container  designing*/
+.main-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-right-container img {
+    width: 100%;
+    padding: 20px;
+}
+
+/* designing second main container */
+
+.second-main-section{
+    display: flex;
+    padding: 20px;
+    /* min-height: 50vh; */
+    margin-top: 20px;
+    padding: 30px;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-color: #F8F8FE;
+}
+
+/* second-main-left-container */
+
+.second-main-left-container{
+    width: 100%;
+    
+}
+.second-text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.paregraph{
+    width: 70%;
+}
+.paregraph p{
+    margin-top: 15px;
+    font-weight: 500;
+}
+.aonchar-tag{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.aonchar-tag a{
+    color: #A7D8D4;
+    text-decoration: none;
+}
+.aonchar-tag a:hover{
+    text-decoration: underline;
+}
+.aonchar-tag img{
+    margin-left: 5px;
+}
+
+/* cart container */
+.cart{
+    width: 50%;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.cart-container{
+    margin-top: 20px;
+    padding: 10px;
+}
+.cart-img-name{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.cart-img-name img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.text-name{
+    margin-left: 5px;
+}
+.text-name p{
+    font-size: 10px;
+}
+
+
+
+
+/* second-main-right-container */
+.second-main-right-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.second-main-right-container img{
+    width: 100%;
+}
+
+
+/* desgning footer section */
+
+.footer-frist-container{
+    display: flex;
+    height: 30vh;
+    background-color: #575989;
+    padding: 30px;
+    /* justify-content: space-around; */
+    overflow: auto;
+}
+
+.left-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+.left-container p{
+    margin-top: 15px;
+    width: 70%;
+    line-height: 1.5rem;
+}
+
+.right-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-container input {
+    padding: 10px 35px;
+    display: block;
+}
+.right-container button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #6B9BFF;
+    color: white;
+    border: none;
+    font-size: 600;
+}
+
+/* last footer section */
+.second-footer-section{
+    padding: 20px;
+    background-color: #07043B;
+    height: 50vh;
+}
+
+.logo{
+    padding: 10px;
+}
+.items-numbers{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.phone h3{
+    margin-top: 8px;
+}
+.phone i {
+    margin-right: 5px;
+    padding: 5px;
+}
+/* mobile view*/
+
+@media(max-width:780px){
+    .nav-bar-cotainer img{
+        padding-left: 0px;
+    }
+    .main-container{
+        display: flex;  
+        flex-direction: column-reverse;
+    }
+    .main-left-contaoner{
+        margin-bottom: 10px;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .pages a{
+        margin-right: 3px;
+        font-size: 15px;
+    }
+
+    /* second */
+    .second-main-section{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .second-text-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .second-text-container h1{
+        text-align: center;
+    }
+    .cart-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart{
+        width: 100%;
+    }
+    /* footer */
+    .footer-frist-container{
+        display: block;
+    }
+
+    .footer-frist-container{
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    .left-container p{
+        width: 100%;
+    }
+    .second-footer-section{
+        display: none;
+    }
+}
+
+@media(max-width:450px){
+    footer{
+        display: none;
+    }
+    .aonchar-tag a{
+        font-size: 1.5rem;
+    }
+}
